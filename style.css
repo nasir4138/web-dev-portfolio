@@ -285,7 +285,7 @@ footer input[type="text"], input[type="email"], textarea {
     .button-primary{
         font-size: ;
         font-weight: normal;
-        padding: 10px 25px;
+        /* padding: 10px 25px; */
     }
     nav{
         display: inline-block;
@@ -301,4 +301,3 @@ footer input[type="text"], input[type="email"], textarea {
         width: calc(100% - 60px);
     }
 }
-
