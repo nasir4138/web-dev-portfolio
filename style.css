@@ -256,11 +256,49 @@ footer input[type="text"], input[type="email"], textarea {
     outline: none;
     font-size: 18px;
 }
-.my-photo img{
+/* .my-photo img{
     margin: 50px 0;
     width: 160px;
     
     box-sizing: border-box;
     border-radius: 15%;
+} */
+
+@media screen and (max-width:576px) {
+    .card-section, .resume-content , .footer-content, .banner, .info{
+        flex-direction: column;
+       
+    }
+    .his-name, .banner-grretings{
+        font-size: small;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic {
+        width: 100%;
+
+    }
+    .button-primary{
+        font-size: ;
+        font-weight: normal;
+        padding: 10px 25px;
+    }
+    nav{
+        display: inline-block;
+    }
+    
+    .footer-content,.about, .about-content{
+        padding: 20px;
+    }
+    .footer-colamn{
+        width: 100%; ;
+    }
+    footer input[type="text"], input[type="email"], textarea{
+        width: calc(100% - 60px);
+    }
 }
 
